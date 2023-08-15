@@ -1,13 +1,12 @@
 package taxi.service;
 
+import java.util.List;
+import java.util.NoSuchElementException;
 import taxi.dao.CarDao;
 import taxi.lib.Inject;
 import taxi.lib.Service;
 import taxi.model.Car;
 import taxi.model.Driver;
-
-import java.util.List;
-import java.util.NoSuchElementException;
 
 @Service
 public class CarServiceImpl implements CarService {
